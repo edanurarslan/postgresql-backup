@@ -1,0 +1,6 @@
+# PostgreSQL WAL Archiving Configuration
+# Location: /Library/PostgreSQL/16/data/postgresql.conf
+
+wal_level = replica
+archive_mode = on
+archive_command = 'cp %p /Users/Shared/wal_archives/%f'
