@@ -1,135 +1,128 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_224132.log\
-2026-04-08 22:41:32.421 +03 [78129] LOG:\'a0 starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit\
-2026-04-08 22:41:32.421 +03 [78129] LOG:\'a0 listening on IPv6 address "::", port 5432\
-2026-04-08 22:41:32.421 +03 [78129] LOG:\'a0 could not bind IPv4 address "0.0.0.0": Address already in use\
-2026-04-08 22:41:32.421 +03 [78129] HINT:\'a0 Is another postmaster already running on port 5432? If not, wait a few seconds and retry.\
-2026-04-08 22:41:32.421 +03 [78129] FATAL:\'a0 could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied\
-2026-04-08 22:41:32.422 +03 [78129] LOG:\'a0 database system is shut down\
-macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_224019.log\
-2026-04-08 22:40:19.009 +03 [78114] LOG:\'a0 starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit\
-2026-04-08 22:40:19.009 +03 [78114] LOG:\'a0 listening on IPv6 address "::", port 5432\
-2026-04-08 22:40:19.009 +03 [78114] LOG:\'a0 could not bind IPv4 address "0.0.0.0": Address already in use\
-2026-04-08 22:40:19.009 +03 [78114] HINT:\'a0 Is another postmaster already running on port 5432? If not, wait a few seconds and retry.\
-2026-04-08 22:40:19.009 +03 [78114] FATAL:\'a0 could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied\
-2026-04-08 22:40:19.010 +03 [78114] LOG:\'a0 database system is shut down\
-macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_223842.log\
-2026-04-08 22:38:42.749 +03 [78082] LOG:\'a0 starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit\
-2026-04-08 22:38:42.749 +03 [78082] LOG:\'a0 listening on IPv6 address "::", port 5432\
-2026-04-08 22:38:42.749 +03 [78082] LOG:\'a0 could not bind IPv4 address "0.0.0.0": Address already in use\
-2026-04-08 22:38:42.749 +03 [78082] HINT:\'a0 Is another postmaster already running on port 5432? If not, wait a few seconds and retry.\
-2026-04-08 22:38:42.750 +03 [78082] FATAL:\'a0 could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied\
-2026-04-08 22:38:42.750 +03 [78082] LOG:\'a0 database system is shut down\
-macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_222851.log\
-2026-04-08 22:28:51.314 +03 [77963] LOG:\'a0 starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit\
-2026-04-08 22:28:51.314 +03 [77963] LOG:\'a0 listening on IPv6 address "::", port 5432\
-2026-04-08 22:28:51.314 +03 [77963] LOG:\'a0 could not bind IPv4 address "0.0.0.0": Address already in use\
-2026-04-08 22:28:51.314 +03 [77963] HINT:\'a0 Is another postmaster already running on port 5432? If not, wait a few seconds and retry.\
-2026-04-08 22:28:51.315 +03 [77963] FATAL:\'a0 could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied\
-2026-04-08 22:28:51.315 +03 [77963] LOG:\'a0 database system is shut down\
-macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_222759.log\
-2026-04-08 22:27:59.530 +03 [77955] LOG:\'a0 starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit\
-2026-04-08 22:27:59.530 +03 [77955] LOG:\'a0 listening on IPv6 address "::", port 5432\
-2026-04-08 22:27:59.530 +03 [77955] LOG:\'a0 could not bind IPv4 address "0.0.0.0": Address already in use\
-2026-04-08 22:27:59.530 +03 [77955] HINT:\'a0 Is another postmaster already running on port 5432? If not, wait a few seconds and retry.\
-2026-04-08 22:27:59.530 +03 [77955] FATAL:\'a0 could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied\
-2026-04-08 22:27:59.530 +03 [77955] LOG:\'a0 database system is shut down\
-macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_222709.log\
-2026-04-08 22:27:09.432 +03 [77945] LOG:\'a0 starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit\
-2026-04-08 22:27:09.432 +03 [77945] LOG:\'a0 listening on IPv6 address "::", port 5432\
-2026-04-08 22:27:09.432 +03 [77945] LOG:\'a0 could not bind IPv4 address "0.0.0.0": Address already in use\
-2026-04-08 22:27:09.432 +03 [77945] HINT:\'a0 Is another postmaster already running on port 5432? If not, wait a few seconds and retry.\
-2026-04-08 22:27:09.432 +03 [77945] FATAL:\'a0 could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied\
-2026-04-08 22:27:09.433 +03 [77945] LOG:\'a0 database system is shut down\
-macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_220712.log\
-2026-04-08 22:19:57.711 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:19:57.711 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:19:58.730 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:19:58.730 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:19:59.753 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:19:59.753 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-2026-04-08 22:19:59.753 +03 [77395] WARNING:\'a0 archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:20:59.768 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:20:59.768 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:21:00.783 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:21:00.783 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:21:01.805 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:21:01.805 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-2026-04-08 22:21:01.805 +03 [77395] WARNING:\'a0 archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later\
-2026-04-08 22:21:53.541 +03 [77388] LOG:\'a0 received fast shutdown request\
-2026-04-08 22:21:53.541 +03 [77388] LOG:\'a0 aborting any active transactions\
-2026-04-08 22:21:53.541 +03 [77472] FATAL:\'a0 terminating connection due to administrator command\
-2026-04-08 22:21:53.541 +03 [77434] FATAL:\'a0 terminating connection due to administrator command\
-2026-04-08 22:21:53.541 +03 [77435] FATAL:\'a0 terminating connection due to administrator command\
-2026-04-08 22:21:53.541 +03 [77433] FATAL:\'a0 terminating connection due to administrator command\
-2026-04-08 22:21:53.545 +03 [77388] LOG:\'a0 background worker "logical replication launcher" (PID 77396) exited with exit code 1\
-2026-04-08 22:21:53.546 +03 [77390] LOG:\'a0 shutting down\
-2026-04-08 22:21:53.870 +03 [77390] LOG:\'a0 checkpoint starting: shutdown immediate\
-2026-04-08 22:21:53.871 +03 [77390] LOG:\'a0 checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.002 s; sync files=0, longest=0.000 s, average=0.000 s; distance=16383 kB, estimate=31051 kB; lsn=0/3A000028, redo lsn=0/3A000028\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:21:53.877 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:21:53.877 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:21:54.892 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:21:54.892 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:21:55.908 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:21:55.908 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-2026-04-08 22:21:55.908 +03 [77395] WARNING:\'a0 archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:21:55.915 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:21:55.915 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:21:56.939 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:21:56.939 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:21:57.965 +03 [77395] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:21:57.965 +03 [77395] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-2026-04-08 22:21:57.965 +03 [77395] WARNING:\'a0 archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later\
-2026-04-08 22:21:57.973 +03 [77388] LOG:\'a0 database system is shut down\
-macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_220432.log\
-2026-04-08 22:04:32.059 +03 [77258] LOG:\'a0 starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit\
-2026-04-08 22:04:32.059 +03 [77258] LOG:\'a0 listening on IPv6 address "::", port 5432\
-2026-04-08 22:04:32.059 +03 [77258] LOG:\'a0 listening on IPv4 address "0.0.0.0", port 5432\
-2026-04-08 22:04:32.060 +03 [77258] LOG:\'a0 listening on Unix socket "/tmp/.s.PGSQL.5432"\
-2026-04-08 22:04:32.067 +03 [77262] LOG:\'a0 database system was shut down at 2026-04-08 22:04:30 +03\
-2026-04-08 22:04:32.071 +03 [77258] LOG:\'a0 database system is ready to accept connections\
-2026-04-08 22:07:08.188 +03 [77258] LOG:\'a0 received fast shutdown request\
-2026-04-08 22:07:08.188 +03 [77258] LOG:\'a0 aborting any active transactions\
-2026-04-08 22:07:08.190 +03 [77258] LOG:\'a0 background worker "logical replication launcher" (PID 77266) exited with exit code 1\
-2026-04-08 22:07:08.190 +03 [77260] LOG:\'a0 shutting down\
-2026-04-08 22:07:08.247 +03 [77260] LOG:\'a0 checkpoint starting: shutdown immediate\
-2026-04-08 22:07:08.250 +03 [77260] LOG:\'a0 checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.004 s; sync files=4, longest=0.001 s, average=0.001 s; distance=7356 kB, estimate=7356 kB; lsn=0/37000028, redo lsn=0/37000028\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:07:08.255 +03 [77265] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:07:08.255 +03 [77265] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:07:09.269 +03 [77265] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:07:09.269 +03 [77265] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:07:10.283 +03 [77265] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:07:10.283 +03 [77265] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-2026-04-08 22:07:10.283 +03 [77265] WARNING:\'a0 archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:07:10.289 +03 [77265] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:07:10.289 +03 [77265] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:07:11.303 +03 [77265] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:07:11.303 +03 [77265] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied\
-2026-04-08 22:07:12.319 +03 [77265] LOG:\'a0 archive command failed with exit code 1\
-2026-04-08 22:07:12.319 +03 [77265] DETAIL:\'a0 The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036\
-2026-04-08 22:07:12.319 +03 [77265] WARNING:\'a0 archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later\
-2026-04-08 22:07:12.323 +03 [77258] LOG:\'a0 database system is shut down\
-macbook@Edas-MacBook-Pro /tmp %\'a0}
+macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_224132.log
+2026-04-08 22:41:32.421 +03 [78129] LOG:  starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-04-08 22:41:32.421 +03 [78129] LOG:  listening on IPv6 address "::", port 5432
+2026-04-08 22:41:32.421 +03 [78129] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2026-04-08 22:41:32.421 +03 [78129] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2026-04-08 22:41:32.421 +03 [78129] FATAL:  could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied
+2026-04-08 22:41:32.422 +03 [78129] LOG:  database system is shut down
+macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_224019.log
+2026-04-08 22:40:19.009 +03 [78114] LOG:  starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-04-08 22:40:19.009 +03 [78114] LOG:  listening on IPv6 address "::", port 5432
+2026-04-08 22:40:19.009 +03 [78114] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2026-04-08 22:40:19.009 +03 [78114] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2026-04-08 22:40:19.009 +03 [78114] FATAL:  could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied
+2026-04-08 22:40:19.010 +03 [78114] LOG:  database system is shut down
+macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_223842.log
+2026-04-08 22:38:42.749 +03 [78082] LOG:  starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-04-08 22:38:42.749 +03 [78082] LOG:  listening on IPv6 address "::", port 5432
+2026-04-08 22:38:42.749 +03 [78082] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2026-04-08 22:38:42.749 +03 [78082] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2026-04-08 22:38:42.750 +03 [78082] FATAL:  could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied
+2026-04-08 22:38:42.750 +03 [78082] LOG:  database system is shut down
+macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_222851.log
+2026-04-08 22:28:51.314 +03 [77963] LOG:  starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-04-08 22:28:51.314 +03 [77963] LOG:  listening on IPv6 address "::", port 5432
+2026-04-08 22:28:51.314 +03 [77963] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2026-04-08 22:28:51.314 +03 [77963] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2026-04-08 22:28:51.315 +03 [77963] FATAL:  could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied
+2026-04-08 22:28:51.315 +03 [77963] LOG:  database system is shut down
+macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_222759.log
+2026-04-08 22:27:59.530 +03 [77955] LOG:  starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-04-08 22:27:59.530 +03 [77955] LOG:  listening on IPv6 address "::", port 5432
+2026-04-08 22:27:59.530 +03 [77955] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2026-04-08 22:27:59.530 +03 [77955] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2026-04-08 22:27:59.530 +03 [77955] FATAL:  could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied
+2026-04-08 22:27:59.530 +03 [77955] LOG:  database system is shut down
+macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_222709.log
+2026-04-08 22:27:09.432 +03 [77945] LOG:  starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-04-08 22:27:09.432 +03 [77945] LOG:  listening on IPv6 address "::", port 5432
+2026-04-08 22:27:09.432 +03 [77945] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2026-04-08 22:27:09.432 +03 [77945] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2026-04-08 22:27:09.432 +03 [77945] FATAL:  could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied
+2026-04-08 22:27:09.433 +03 [77945] LOG:  database system is shut down
+macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_220712.log
+2026-04-08 22:19:57.711 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:19:57.711 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:19:58.730 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:19:58.730 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:19:59.753 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:19:59.753 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+2026-04-08 22:19:59.753 +03 [77395] WARNING:  archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:20:59.768 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:20:59.768 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:21:00.783 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:21:00.783 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:21:01.805 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:21:01.805 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+2026-04-08 22:21:01.805 +03 [77395] WARNING:  archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later
+2026-04-08 22:21:53.541 +03 [77388] LOG:  received fast shutdown request
+2026-04-08 22:21:53.541 +03 [77388] LOG:  aborting any active transactions
+2026-04-08 22:21:53.541 +03 [77472] FATAL:  terminating connection due to administrator command
+2026-04-08 22:21:53.541 +03 [77434] FATAL:  terminating connection due to administrator command
+2026-04-08 22:21:53.541 +03 [77435] FATAL:  terminating connection due to administrator command
+2026-04-08 22:21:53.541 +03 [77433] FATAL:  terminating connection due to administrator command
+2026-04-08 22:21:53.545 +03 [77388] LOG:  background worker "logical replication launcher" (PID 77396) exited with exit code 1
+2026-04-08 22:21:53.546 +03 [77390] LOG:  shutting down
+2026-04-08 22:21:53.870 +03 [77390] LOG:  checkpoint starting: shutdown immediate
+2026-04-08 22:21:53.871 +03 [77390] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.002 s; sync files=0, longest=0.000 s, average=0.000 s; distance=16383 kB, estimate=31051 kB; lsn=0/3A000028, redo lsn=0/3A000028
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:21:53.877 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:21:53.877 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:21:54.892 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:21:54.892 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:21:55.908 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:21:55.908 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+2026-04-08 22:21:55.908 +03 [77395] WARNING:  archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:21:55.915 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:21:55.915 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:21:56.939 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:21:56.939 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:21:57.965 +03 [77395] LOG:  archive command failed with exit code 1
+2026-04-08 22:21:57.965 +03 [77395] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+2026-04-08 22:21:57.965 +03 [77395] WARNING:  archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later
+2026-04-08 22:21:57.973 +03 [77388] LOG:  database system is shut down
+macbook@Edas-MacBook-Pro /tmp % sudo tail -n 50 /Library/PostgreSQL/16/data/log/postgresql-2026-04-08_220432.log
+2026-04-08 22:04:32.059 +03 [77258] LOG:  starting PostgreSQL 16.10 on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-04-08 22:04:32.059 +03 [77258] LOG:  listening on IPv6 address "::", port 5432
+2026-04-08 22:04:32.059 +03 [77258] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2026-04-08 22:04:32.060 +03 [77258] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2026-04-08 22:04:32.067 +03 [77262] LOG:  database system was shut down at 2026-04-08 22:04:30 +03
+2026-04-08 22:04:32.071 +03 [77258] LOG:  database system is ready to accept connections
+2026-04-08 22:07:08.188 +03 [77258] LOG:  received fast shutdown request
+2026-04-08 22:07:08.188 +03 [77258] LOG:  aborting any active transactions
+2026-04-08 22:07:08.190 +03 [77258] LOG:  background worker "logical replication launcher" (PID 77266) exited with exit code 1
+2026-04-08 22:07:08.190 +03 [77260] LOG:  shutting down
+2026-04-08 22:07:08.247 +03 [77260] LOG:  checkpoint starting: shutdown immediate
+2026-04-08 22:07:08.250 +03 [77260] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.004 s; sync files=4, longest=0.001 s, average=0.001 s; distance=7356 kB, estimate=7356 kB; lsn=0/37000028, redo lsn=0/37000028
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:07:08.255 +03 [77265] LOG:  archive command failed with exit code 1
+2026-04-08 22:07:08.255 +03 [77265] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:07:09.269 +03 [77265] LOG:  archive command failed with exit code 1
+2026-04-08 22:07:09.269 +03 [77265] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:07:10.283 +03 [77265] LOG:  archive command failed with exit code 1
+2026-04-08 22:07:10.283 +03 [77265] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+2026-04-08 22:07:10.283 +03 [77265] WARNING:  archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:07:10.289 +03 [77265] LOG:  archive command failed with exit code 1
+2026-04-08 22:07:10.289 +03 [77265] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:07:11.303 +03 [77265] LOG:  archive command failed with exit code 1
+2026-04-08 22:07:11.303 +03 [77265] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+cp: /Users/macbook/Documents/wal_archives/000000010000000000000036: Permission denied
+2026-04-08 22:07:12.319 +03 [77265] LOG:  archive command failed with exit code 1
+2026-04-08 22:07:12.319 +03 [77265] DETAIL:  The failed archive command was: cp pg_wal/000000010000000000000036 /Users/macbook/Documents/wal_archives/000000010000000000000036
+2026-04-08 22:07:12.319 +03 [77265] WARNING:  archiving write-ahead log file "000000010000000000000036" failed too many times, will try again later
+2026-04-08 22:07:12.323 +03 [77258] LOG:  database system is shut down
+macbook@Edas-MacBook-Pro /tmp % 
