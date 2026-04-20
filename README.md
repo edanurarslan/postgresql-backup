@@ -1,3 +1,5 @@
+# VİDEO LİNK: https://youtu.be/aEyRzxgKImg
+
 # PostgreSQL Automated Backup & Disaster Recovery Plan
 
 Bu proje, bir veritabanı sisteminin güvenliğini ve sürekliliğini sağlamak amacıyla geliştirilmiş **uçtan uca bir yedekleme ve felaketten kurtarma (Disaster Recovery)** çözümüdür. PostgreSQL 16 üzerinde yapılandırılmış olan sistem; otomatik tam yedekler, saniyelik veri kaybını önleyen **Point-in-Time Recovery (PITR)** ve otomasyon süreçlerini içerir.
